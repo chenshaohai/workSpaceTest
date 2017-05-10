@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../BookObtain/BookObtain.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../IWShopping0221/IWShopping0221.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../PPMDemo0414/PPM.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  shopping201702
+//
+//  Created by s on 17/2/20.
+//  Copyright © 2017年 sword. All rights reserved.
+//
+#import <Availability.h>
+//#ifndef PrefixHeader_pch
+//#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIImage+MJ.h"
+#import "IWCommon.h"
+#import "XHCommon.h"
+#import "MJRefresh.h"
+#import "ANodataView.h"
+#import "ALoadingView.h"
+#import "ASingleton.h"
+#import "IWHomeViewController.h"
+#import "AFHTTPSessionManager.h"
+#import "SDCycleScrollView.h"
+#import "UIImageView+WebCache.h"
+#import "UIColor+Color.h"
+#import "UIImageView+WebCache.h"
+#import "IWSearchBar.h"
+#import "AIQKeyboardManager.h"
+#import "AFNetworking.h"
+#import "IWHttpTool.h"
+#import "NSDictionary+ADictionary.h"
+#import "TKAlertCenter.h"
+#import "NSDate+ADate.h"
+#import "UILabel+ChangeLineSpaceAndWordSpace.h"
+#import "UIView+Frame.h"
+#endif /* PrefixHeader_pch */
