@@ -1,0 +1,64 @@
+//
+//  PrefixHeader.pch
+//  PPM
+//
+//  Created by zhangxingwei on 2017/4/12.
+//  Copyright © 2017年 e-lead. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "EPMainMacro.h"
+#import "UIColor+Color.h"
+#import "ASingleton.h"
+#import "UIImage+MJ.h"
+#import "UIView+Frame.h"
+#import "NSDictionary+Null.h"
+//#define kFRate(sum) ([UIScreen mainScreen].bounds.size.width > 375 ? ((sum)* 1.0 * kViewWidth / 375 ) : sum)
+
+#define WEAKSELF __weak typeof(self) weakSelf = self;
+#define __IMG__(name) [UIImage imageNamed:name]
+#define kFRate(sum) (sum)
+//宽 高
+#define kViewWidth [UIScreen mainScreen].bounds.size.width
+#define kViewHeight [UIScreen mainScreen].bounds.size.height
+
+//#ifdef DEBUG
+//#define CTDLog(...)   NSLog(__VA_ARGS__)
+//#else
+//#define CTDLog(...)
+
+// 图片
+#define _IMG(name) [UIImage imageNamed:(name)]
+
+// 获得RGB颜色
+#define kColorRGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define COLOR_HEX(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define COLOR_RGB(r, g, b)       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+/**
+ *  字体大小
+ */
+#define kFont16px [UIFont systemFontOfSize:9]
+#define kFont18px [UIFont systemFontOfSize:9.5]
+#define kFont20px [UIFont systemFontOfSize:10]
+#define kFont22px [UIFont systemFontOfSize:11]
+#define kFont24px [UIFont systemFontOfSize:12]
+#define kFont26px [UIFont systemFontOfSize:13]
+#define kFont28px [UIFont systemFontOfSize:14]
+#define kFont30px [UIFont systemFontOfSize:15]
+#define kFont32px [UIFont systemFontOfSize:16]
+#define kFont34px [UIFont systemFontOfSize:17]
+#define kFont36px [UIFont systemFontOfSize:18]
+#define kFont38px [UIFont systemFontOfSize:19]
+#define kFont40px [UIFont systemFontOfSize:20]
+#define kFont42px [UIFont systemFontOfSize:21]
+
+// 字体大小
+#define MyFont(s)  [UIFont systemFontOfSize:(s)]
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

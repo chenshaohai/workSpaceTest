@@ -1,10 +1,774 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:../BookObtain/BookObtain.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../PPMDemo0414/PPM.xcodeproj">
-   </FileRef>
+   <Group
+      location = "group:MGJRouter"
+      name = "MGJRouter">
+      <FileRef
+         location = "group:MGJRouter.h">
+      </FileRef>
+      <FileRef
+         location = "group:MGJRouter.m">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:PPMDemo0414"
+      name = "PPMDemo0414">
+      <Group
+         location = "group:PPM"
+         name = "PPM">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:qidong120.png">
+               </FileRef>
+               <FileRef
+                  location = "group:qidong180.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:EPRMProgect.imageset"
+               name = "EPRMProgect.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:EPRMProgect@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:EPRMProgect_hui.imageset"
+               name = "EPRMProgect_hui.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:EPRMProgect_hui@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:EPRMStatistics.imageset"
+               name = "EPRMStatistics.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:&#x672a;&#x6807;&#x9898;-13.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:EPRMStatistics_hui.imageset"
+               name = "EPRMStatistics_hui.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:&#x672a;&#x6807;&#x9898;-3.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:PPMBlueDown.imageset"
+               name = "PPMBlueDown.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMBlueDown@2x.jpeg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:PPMProjectDetailProgessGreen.imageset"
+               name = "PPMProjectDetailProgessGreen.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailProgessGreen@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:PPMProjectDetailProgessOrange.imageset"
+               name = "PPMProjectDetailProgessOrange.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailProgessOrange@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:PPMProjectXuXian.imageset"
+               name = "PPMProjectXuXian.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectXuXian.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:project_image03.imageset"
+               name = "project_image03.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:project_image03@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:project_image_right.imageset"
+               name = "project_image_right.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:project_image_right@3x.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Category"
+            name = "Category">
+            <FileRef
+               location = "group:AActivityIndicicator.h">
+            </FileRef>
+            <FileRef
+               location = "group:AActivityIndicicator.m">
+            </FileRef>
+            <FileRef
+               location = "group:ALoadingView.h">
+            </FileRef>
+            <FileRef
+               location = "group:ALoadingView.m">
+            </FileRef>
+            <FileRef
+               location = "group:ASingleton.h">
+            </FileRef>
+            <FileRef
+               location = "group:ASingleton.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSDate+ADate.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDate+ADate.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+ADictionary.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+ADictionary.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+Null.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSDictionary+Null.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+Size.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+Size.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIBarButtonItem+MJ.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIBarButtonItem+MJ.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIColor+Color.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIColor+Color.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+MJ.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIImage+MJ.m">
+            </FileRef>
+            <FileRef
+               location = "group:UILabel+ChangeLineSpaceAndWordSpace.h">
+            </FileRef>
+            <FileRef
+               location = "group:UILabel+ChangeLineSpaceAndWordSpace.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIView+Frame.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIView+Frame.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+BackButtonHandler.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+BackButtonHandler.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+DismissKeyboard.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+DismissKeyboard.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:EPMainMacro.h">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:Lib"
+            name = "Lib">
+            <Group
+               location = "group:MBProgressHUD"
+               name = "MBProgressHUD">
+               <FileRef
+                  location = "group:MBProgressHUD+Add.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MBProgressHUD+Add.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MBProgressHUD.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MBProgressHUD.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:MJRefresh"
+               name = "MJRefresh">
+               <Group
+                  location = "group:Base"
+                  name = "Base">
+                  <FileRef
+                     location = "group:MJRefreshAutoFooter.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshAutoFooter.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshBackFooter.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshBackFooter.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshComponent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshComponent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshFooter.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshFooter.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshHeader.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MJRefreshHeader.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Custom"
+                  name = "Custom">
+                  <Group
+                     location = "group:Footer"
+                     name = "Footer">
+                     <Group
+                        location = "group:Auto"
+                        name = "Auto">
+                        <FileRef
+                           location = "group:MJRefreshAutoGifFooter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshAutoGifFooter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshAutoNormalFooter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshAutoNormalFooter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshAutoStateFooter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshAutoStateFooter.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Back"
+                        name = "Back">
+                        <FileRef
+                           location = "group:MJRefreshBackGifFooter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshBackGifFooter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshBackNormalFooter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshBackNormalFooter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshBackStateFooter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MJRefreshBackStateFooter.m">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Header"
+                     name = "Header">
+                     <FileRef
+                        location = "group:MJRefreshGifHeader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MJRefreshGifHeader.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MJRefreshNormalHeader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MJRefreshNormalHeader.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MJRefreshStateHeader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MJRefreshStateHeader.m">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:EaseLocalDefine.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MJRefresh.bundle">
+               </FileRef>
+               <FileRef
+                  location = "group:MJRefresh.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MJRefreshConst.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MJRefreshConst.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIScrollView+MJExtension.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIScrollView+MJExtension.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIScrollView+MJRefresh.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIScrollView+MJRefresh.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+MJExtension.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+MJExtension.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Main"
+            name = "Main">
+            <Group
+               location = "group:Model"
+               name = "Model">
+               <FileRef
+                  location = "group:EPCardTabModel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPCardTabModel.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:VC"
+               name = "VC">
+               <FileRef
+                  location = "group:EPBaseViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPBaseViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMBaseNavigationVC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMBaseNavigationVC.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:EPCardTabBar.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPCardTabBar.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPCardTabCell.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPCardTabCell.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPResearchMobileTabBar.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPResearchMobileTabBar.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPRMNavSelectView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPRMNavSelectView.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <Group
+            location = "group:PPMApproveDetails"
+            name = "PPMApproveDetails">
+            <FileRef
+               location = "group:EPApproveDetailVC.h">
+            </FileRef>
+            <FileRef
+               location = "group:EPApproveDetailVC.m">
+            </FileRef>
+            <FileRef
+               location = "group:EPOpinionsVC.h">
+            </FileRef>
+            <FileRef
+               location = "group:EPOpinionsVC.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:PPMHomeVC.h">
+         </FileRef>
+         <FileRef
+            location = "group:PPMHomeVC.m">
+         </FileRef>
+         <Group
+            location = "group:PPMProject"
+            name = "PPMProject">
+            <Group
+               location = "group:Model"
+               name = "Model">
+               <FileRef
+                  location = "group:EPDrawPieModel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPDrawPieModel.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPObPartProjectViewModel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPObPartProjectViewModel.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProgressModel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProgressModel.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailModel.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailModel.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:VC"
+               name = "VC">
+               <FileRef
+                  location = "group:PPMProjectDetailVC.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailVC.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:EPDrawPieView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPDrawPieView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPObPartProjectViewCell.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPObPartProjectViewCell.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPPmStatisticsPersonView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPPmStatisticsPersonView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPPmStatisticsPieView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPPmStatisticsPieView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPPmStatisticsView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPPmStatisticsView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:EPRadianLayer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPRadianLayer.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProgressView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProgressView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailCell.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMProjectDetailCell.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:PPMReview"
+            name = "PPMReview">
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:EPObStatisticsView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:EPObStatisticsView.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMMyApplyCell.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMMyApplyCell.m">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMTopButton.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PPMTopButton.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:PrefixHeader.pch">
+         </FileRef>
+         <Group
+            location = "group:Resource"
+            name = "Resource">
+            <FileRef
+               location = "group:00_guide3.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:aggred@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:applying@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_01@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_02@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_03@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_04@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_05@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_06@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:head_07@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:rectangular@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:unapplying@3x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:&#x8bc1;&#x4e66;"
+            name = "&#x8bc1;&#x4e66;">
+            <FileRef
+               location = "group:CertificateSigningRequest.certSigningRequest">
+            </FileRef>
+            <FileRef
+               location = "group:com.e-lead.E-Platform.develop.p12">
+            </FileRef>
+            <FileRef
+               location = "group:com.e-lead.E-Platform.distribution.p12">
+            </FileRef>
+            <FileRef
+               location = "group:comeleadEPlatformdevelop.mobileprovision">
+            </FileRef>
+            <FileRef
+               location = "group:comeleadEPlatformdistribution.mobileprovision">
+            </FileRef>
+            <FileRef
+               location = "group:ios_development.cer">
+            </FileRef>
+            <FileRef
+               location = "group:ios_distribution.cer">
+            </FileRef>
+            <Group
+               location = "group:&#x5bc6;&#x7801;eplatform"
+               name = "&#x5bc6;&#x7801;eplatform">
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:PPM.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:PPMTests"
+         name = "PPMTests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:PPMTests.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:PPMUITests"
+         name = "PPMUITests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:PPMUITests.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:&#x8bc1;&#x4e66;"
+         name = "&#x8bc1;&#x4e66;">
+         <FileRef
+            location = "group:CertificateSigningRequest.certSigningRequest">
+         </FileRef>
+         <FileRef
+            location = "group:com.e-lead.E-Platform.develop.p12">
+         </FileRef>
+         <FileRef
+            location = "group:com.e-lead.E-Platform.distribution.p12">
+         </FileRef>
+         <FileRef
+            location = "group:comeleadEPlatformdevelop.mobileprovision">
+         </FileRef>
+         <FileRef
+            location = "group:comeleadEPlatformdistribution.mobileprovision">
+         </FileRef>
+         <FileRef
+            location = "group:ios_development.cer">
+         </FileRef>
+         <FileRef
+            location = "group:ios_distribution.cer">
+         </FileRef>
+         <Group
+            location = "group:&#x5bc6;&#x7801;eplatform"
+            name = "&#x5bc6;&#x7801;eplatform">
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:BookObtain"
+      name = "BookObtain">
+      <Group
+         location = "group:bookBundle"
+         name = "bookBundle">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:BookObtain"
+         name = "BookObtain">
+         <FileRef
+            location = "group:Book.h">
+         </FileRef>
+         <FileRef
+            location = "group:Book.m">
+         </FileRef>
+         <FileRef
+            location = "group:BookObtain.h">
+         </FileRef>
+         <FileRef
+            location = "group:BookObtain.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:BookObtain.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
